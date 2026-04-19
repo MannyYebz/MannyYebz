@@ -1,71 +1,89 @@
-<h1 align="center">Hey, I'm Manny 👋</h1>
+# Manny Yebz — AI Engineer & Systems Builder
 
-<p align="center">
-  <b>Self-taught Python Developer & AI Engineer</b><br>
-  Building real tools • Publishing to PyPI • Learning every day
-</p>
-
-<p align="center">
-  <a href="https://github.com/mannyyebz">
-    <img src="https://img.shields.io/github/followers/mannyyebz?label=Follow&style=social" />
-  </a>
-  <a href="https://pypi.org/user/mannyyebz">
-    <img src="https://img.shields.io/badge/PyPI-Published-blue" />
-  </a>
-</p>
+> I build tools that work, ship code that runs, and think in systems.
 
 ---
 
-## 🧠 About Me
+## What I Do
 
-I'm a self-taught developer focused on building practical Python tools and AI-powered applications.
-I don't just write code — I package it, publish it, and ship it.
+I design and deploy Python-based systems at the intersection of AI, data, and
+real-world utility. My work spans building API clients, packaging and publishing
+production-ready tools, and applying quantitative thinking to engineering problems.
 
-- 🔭 Currently building CLI tools and API clients in Python
-- 📦 Published packages on PyPI
-- 🤖 Exploring AI engineering with LLMs and REST APIs
-- 💼 Open to entry-level roles and freelance opportunities
-- 📍 Always learning, always building
+I approach every project the same way: understand the problem deeply, model it
+clearly, then build something that actually ships.
 
 ---
 
-## 🛠️ Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20APIs-FF6C37?style=flat&logo=postman&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![AI/LLMs](https://img.shields.io/badge/AI%2FLLMs-412991?style=flat&logo=openai&logoColor=white)
-
----
-
-## 🚀 Featured Projects
+## Projects
 
 ### 🌤️ [weather-app-mannyyebz](https://pypi.org/project/weather-app-mannyyebz/)
-A production-ready Python CLI for fetching real-time weather data using the OpenWeatherMap API.
-- Published on PyPI
-- CLI entry point — runs with just `weather-app`
-- Handles API key storage via `.env`
+A production-ready Python CLI for real-time weather data via the OpenWeatherMap API.
+- Published on PyPI — installable with a single `pip install`
+- Clean architecture with a proper `src` layout, entry point, and `.env` handling
+- Designed for real users: prompts for API key on first run, saves it automatically
 
-![PyPI](https://img.shields.io/pypi/v/weather-app-mannyyebz)
-![Python](https://img.shields.io/pypi/pyversions/weather-app-mannyyebz)
+### 🛸 NASA API Client
+A Python client for the NASA public API — fetches Astronomy Picture of the Day
+and Near-Earth Object data.
+- Built around a clean class-based interface
+- Handles retries, timeouts, and error states gracefully
+- Structured for extensibility and reuse
+
+### 📈 Options Pricing Engine
+Algorithmic modeling of financial derivatives using quantitative methods.
+- Applies mathematical models to real-world pricing problems
+- Demonstrates applied probability, calculus, and numerical methods in code
 
 ---
 
-## 📊 GitHub Stats
+## Technical Skills
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mannyyebz&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mannyyebz&layout=compact&theme=tokyonight" />
-</p>
+**Languages:** Python (primary), Bash  
+**Tooling:** Git, GitHub, UV, Hatchling, Twine, PyPI  
+**Libraries:** Requests, python-dotenv, Loguru  
+**Practices:** src layout packaging, CLI design, REST API integration,
+environment variable management, version control  
+**Currently Exploring:** LLMs, AI model integration, quantitative modeling
 
 ---
 
-## 📬 Let's Connect
+## Foundation: Mathematics & Physics
 
-- 💼 Open to entry-level and freelance opportunities
-- 📧 Reach me via GitHub
+My background in mathematics and physics is not decorative — it directly shapes
+how I engineer systems.
 
-<p align="center">
-  <i>"I build things that work, ship things that matter."</i>
-</p>
+- **Modeling:** I think in terms of inputs, outputs, and the functions between them
+- **Optimization:** I look for the minimum viable complexity that solves the problem
+- **Probabilistic reasoning:** I am comfortable with uncertainty and design systems
+  that handle it explicitly
+- **First-principles thinking:** When something breaks, I trace it back to the
+  fundamentals rather than guessing
+
+This foundation gives me an edge when working on anything that requires rigorous
+thinking — from API error handling to algorithmic modeling.
+
+---
+
+## How I Think
+
+I do not separate theory from practice. The best systems are built by people who
+understand why something works, not just how to make it run.
+
+I ship real tools. I read documentation. I debug from first principles. I version
+my packages, write clean READMEs, and treat every project as something a real
+person might use — because they do.
+
+AI engineering, to me, is applied mathematics plus disciplined software craft.
+That combination is what I am building toward.
+
+---
+
+## Let's Connect
+
+I am open to entry-level AI engineering roles, freelance work, and technical
+collaborations where rigor and shipping velocity both matter.
+
+- 📦 PyPI: [pypi.org/user/mannyyebz](https://pypi.org/user/mannyyebz)
+- 💻 GitHub: [github.com/MannyYebz](https://github.com/MannyYebz)
+- 📧 mannyyebzgmail.com
