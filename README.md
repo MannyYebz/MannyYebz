@@ -1,10 +1,10 @@
 <div align="center">
 
-# 👨‍💻 Manny Yebz
+# Emmanuel Yeboah
 
-### AI Engineer & Systems Builder
+### Data Analyst | Python • SQL • Machine Learning
 
-<p><em>I build tools that work, ship code that runs, and think in systems.</em></p>
+<p><em>Using data to answer questions, uncover patterns, and build tools that make decisions easier.</em></p>
 
 <br/>
 
@@ -12,75 +12,63 @@
   <a href="https://pypi.org/user/mannyyebz">
     <img src="https://img.shields.io/badge/PyPI-Published-3775A9?style=for-the-badge&logo=pypi&logoColor=white"/>
   </a>
-  <a href="https://github.com/MannyYebz">
-    <img src="https://img.shields.io/badge/GitHub-MannyYebz-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <a href="https://linkedin.com/in/emmanuel-yeboah-1a095a162">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://pypi.org/user/mannyyebz">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  </a>
-  <img src="https://img.shields.io/badge/Open%20To-Opportunities-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Open%20To-Data%20Analytics%20%26%20ML-brightgreen?style=for-the-badge"/>
 </p>
 
 </div>
 
 ---
 
-## 🧠 `$ whoami`
+## About Me
 
-<p>
-I design and deploy Python-based systems at the intersection of AI, data, and
-real-world utility. My work spans building API clients, packaging and publishing
-production-ready tools, and applying quantitative thinking to engineering problems.
-</p>
+I'm a Data Analyst with a background in Computer Science and Physics. My work centers on collecting, transforming, and analyzing data to answer practical questions and support better decisions.
 
-<p>
-I approach every project the same way: understand the problem deeply, model it
-clearly, then build something that actually ships.
-</p>
+I enjoy working across the full analytics workflow—from extracting data through APIs and building data pipelines to creating visualizations, predictive models, and production-ready tools. Most of my projects start with a simple question and end with a reproducible solution.
+
+**Current interests:**
+
+* Data Analytics
+* Machine Learning
+* Data Engineering
+* Quantitative Modeling
+* AI-Powered Applications
 
 ---
 
-## 🚀 Projects
-
-<div align="center">
+## Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🌤️ weather-app-mannyyebz  
-<a href="https://pypi.org/project/weather-app-mannyyebz/">
-  <img src="https://img.shields.io/pypi/v/weather-app-mannyyebz?style=flat-square"/>
-</a>
-<a href="https://pypi.org/project/weather-app-mannyyebz/">
-  <img src="https://img.shields.io/pypi/pyversions/weather-app-mannyyebz?style=flat-square"/>
-</a>
+### 🎧 Spotify Listening Analytics
 
-<br/><br/>
+Analyze listening behavior using data collected directly from the Spotify Web API.
 
-A production-ready Python CLI for real-time weather data via the OpenWeatherMap API.
+**Highlights**
 
-- Published on PyPI — installable with a single `pip install`  
-- Clean architecture with a proper `src` layout, entry point, and `.env` handling  
-- Designed for real users: prompts for API key on first run, saves it automatically  
+* OAuth 2.0 authentication and API integration
+* Data collection and transformation with pandas
+* Automated visualizations of listening trends
+* End-to-end workflow from raw data to insight
 
 </td>
 
 <td width="50%" valign="top">
 
-### 🛸 NASA API Client  
-<a href="https://pypi.org/user/mannyyebz">
-  <img src="https://img.shields.io/badge/PyPI-published-3775A9?style=flat-square&logo=pypi&logoColor=white"/>
-</a>
+### 🤖 ML Pipeline Core
 
-<br/><br/>
+Machine learning pipeline for customer churn prediction.
 
-A Python client for the NASA public API — fetches Astronomy Picture of the Day
-and Near-Earth Object data.
+**Highlights**
 
-- Built around a clean class-based interface  
-- Handles retries, timeouts, and error states gracefully  
-- Structured for extensibility and reuse  
+* Data preprocessing and feature engineering
+* Model training and evaluation with PyTorch
+* Experiment tracking using MLflow
+* Structured, production-oriented architecture
 
 </td>
 </tr>
@@ -88,43 +76,87 @@ and Near-Earth Object data.
 <tr>
 <td width="50%" valign="top">
 
-### 📈 Options Pricing Engine  
-<img src="https://img.shields.io/badge/Python-quantitative-3776AB?style=flat-square&logo=python&logoColor=white"/>
+### 🌤️ Weather CLI
 
-<br/><br/>
+Python package published to PyPI for retrieving real-time weather data.
 
-Algorithmic modeling of financial derivatives using quantitative methods.
+**Highlights**
 
-- Applies mathematical models to real-world pricing problems  
-- Demonstrates applied probability, calculus, and numerical methods in code  
+* Installable command-line application
+* API integration and credential management
+* Packaged and distributed through PyPI
+* Clean project structure and documentation
 
 </td>
 
 <td width="50%" valign="top">
 
-### 📡 More Coming  
+### 📈 Options Pricing Engine
 
-<br/>
+Quantitative finance project focused on derivative pricing.
 
-Currently building more tools at the intersection of AI and real-world data.  
-Stay tuned.
+**Highlights**
+
+* Monte Carlo simulations
+* Statistical modeling and probability
+* Numerical methods in Python
+* Unit-tested with pytest
 
 </td>
 </tr>
 </table>
 
-</div>
+---
+
+## Technical Skills
+
+### Analytics
+
+* Python
+* SQL
+* Excel
+* pandas
+* NumPy
+* matplotlib
+* seaborn
+
+### Machine Learning
+
+* PyTorch
+* scikit-learn
+* MLflow
+
+### Data Engineering
+
+* REST APIs
+* OAuth 2.0
+* FastAPI
+* MongoDB
+
+### Developer Tools
+
+* Git
+* Docker
+* uv
+* PyPI Publishing
 
 ---
 
-## 🛠️ Technical Skills
+## What I'm Working On
 
-```python
-skills = {
-    "languages"  : ["Python", "Bash"],
-    "tooling"    : ["Git", "GitHub", "UV", "Hatchling", "Twine", "PyPI"],
-    "libraries"  : ["Requests", "python-dotenv", "Loguru"],
-    "practices"  : ["src layout packaging", "CLI design", "REST API integration",
-                    "environment variable management", "version control"],
-    "exploring"  : ["LLMs", "AI model integration", "quantitative modeling"],
-}
+* Building end-to-end machine learning pipelines
+* Expanding my data engineering skillset
+* Exploring quantitative finance projects
+* Developing AI-assisted analytics applications
+
+---
+
+## Contact
+
+📧 **Email:** [mannyyebz@gmail.com](mailto:mannyyebz@gmail.com)
+
+💼 **LinkedIn:** https://linkedin.com/in/emmanuel-yeboah-1a095a162
+
+🐙 **GitHub:** https://github.com/MannyYebz
+
+</div>
